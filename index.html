@@ -1,13 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>embedding_images_and_video</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="youtube-logo">
+        <div>
+          <a href="#"
+            ><img class="navbar-img" src="/images/menu.svg" alt="Menu"
+          /></a>
+        </div>
+        <div>
+          <a href="#"
+            ><img id="youtube-logo-id" src="/images/youtube.svg" alt="YOUTUBE"
+          /></a>
+        </div>
+        <div id="youtube-link">
+          <a href="#"><h3>YouTube</h3></a>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="search" placeholder="Search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+        <i class="fa fa-microphone"></i>
+      </div>
+      <div class="youtube-information">
+        <div>
+          <a href="#"
+            ><img
+              class="navbar-img"
+              src="/images/video-plus.svg"
+              alt="Video Plus"
+          /></a>
+        </div>
+        <div>
+          <a href="#"><img src="/images/apps.svg" alt="Apps" /></a>
+        </div>
+        <div>
+          <a href="#">
+            <img
+              class="navbar-img"
+              src="/images/notification.png"
+              alt="Notification"
+          /></a>
+        </div>
+        <div>
+          <button type="submit" class="youtube-information-button">
+            <span>SIGN IN</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="main-wrapper">
+        <section class="main-section">
+          <div class="player">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/lJIrF4YjHfQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <p>Embed videos and playlists</p>
+
+          <div class="video-player-info">
+            <div class="video-player-details">
+              <span>201,389</span>
+              •
+              <span>May 18, 2021</span>
+            </div>
+            <div class="video-player-more">
+              <img src="/images/thumb-up.svg" alt="Like" />
+              <span>124K</span>
+              <img src="/images/thumb-up.svg" alt="Dislike" />
+              <span>378</span>
+              <img src="/images/share.svg" alt="Share" />
+              <span>SHARE</span>
+              <img src="/images/playlist-plus.svg" alt="PlayList" />
+              <span>SAVE</span>
+              <img src="/images/dots-horizontal.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="subscribe-to-channel">
+            <div class="img-icon">
+              <img src="/images/channel.jpg" alt="Channel" />
+            </div>
+            <div class="subscribe-info">
+                <h4>TeamYouTube [Help]</h4>
+                <h5>8.4M subscribers</h5>
+                <p>
+                    To learn more please visit the YouTube Help Center: <a href="#">https://www.youtube.com/help</a>
+                    </p>
+            </div>
+            <div class="subscribe-button">
+                <button type="submit">SUBSCRIBE</button>
+            </div>
+          </div>
+        </section>
+        <div id="empty-div"></div>
+
+        <section class="sidebar"></section>
+      </div>
+    </main>
+  </body>
 </html>
