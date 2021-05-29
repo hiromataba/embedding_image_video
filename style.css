@@ -22,6 +22,7 @@ img {
   justify-content: space-between;
   padding: 10px 30px;
   background-color: #282828fa;
+  z-index: 999;
 }
 
 #youtube-logo-id {
@@ -128,6 +129,7 @@ img {
   background-color: #181818;
   height: 1500px;
 }
+
 #empty-div {
   width: 25px;
 }
@@ -260,8 +262,8 @@ img {
   font-size: 18px;
 }
 
-
-.new-comment,.comment{
+.new-comment,
+.comment {
   display: flex;
   align-items: center;
   width: 100%;
@@ -286,7 +288,6 @@ img {
   border-bottom: 1px solid #393939;
 }
 
-
 #sortby {
   /* margin-top: 20px; */
   color: gray;
@@ -294,7 +295,7 @@ img {
 
 .comment {
   align-items: initial;
-  padding-top: 20px
+  padding-top: 20px;
 }
 
 .comment-info {
@@ -392,9 +393,6 @@ img {
   height: 1500px;
 }
 
-
-
-
 .thumbnail {
   position: relative;
   display: flex;
@@ -442,7 +440,6 @@ img {
   font-weight: 500;
   color: white;
 }
-
 
 .thumbnail-channel-name {
   display: flex;
@@ -494,7 +491,7 @@ img {
   border: none;
 }
 
-.btn-add{
+.btn-add {
   background-color: transparent;
   border: none;
 }
