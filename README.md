@@ -1,4 +1,4 @@
-# embedding_image_video
+# Embedding_image_video
 
 # Live demo
 
